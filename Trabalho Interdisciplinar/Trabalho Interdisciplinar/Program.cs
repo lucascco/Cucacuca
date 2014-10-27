@@ -9,6 +9,13 @@ namespace Trabalho_Interdisciplinar
     {
         static void Main(string[] args)
         {
+            Logistica log = new Logistica("revenda.txt", "armazem.txt", "custo.txt");
+
+            log.calcular();
+
+            Console.WriteLine("Finalizado: arquivos gerados na pasta bin/debug do projeto");
+
+
         }
     }
 }
